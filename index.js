@@ -35,5 +35,3 @@ class AudioReactor {
     }
 
 }
-
-export { AudioReactor as default }
