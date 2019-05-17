@@ -10,7 +10,6 @@ npm i mb-sound-reactor
 ### index.html
 ```
 <audio src="assets/sound.mp3" id="sound-reactor-audio"></audio>
-
 ```
 
 ### index.js
