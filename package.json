@@ -1,0 +1,24 @@
+{
+  "name": "mb-sound-reactor",
+  "version": "1.0.0",
+  "description": "a simple class to quickly access sound data via ftt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariusBallot/Sound-Reactor.git"
+  },
+  "keywords": [
+    "sound",
+    "ftt",
+    "audioviz"
+  ],
+  "author": "marius ballot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariusBallot/Sound-Reactor/issues"
+  },
+  "homepage": "https://github.com/MariusBallot/Sound-Reactor#readme"
+}

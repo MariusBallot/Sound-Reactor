@@ -1,4 +1,4 @@
-class AudioReactor {
+class SoundReactor {
 
     constructor() {
         this.ctx
@@ -35,3 +35,5 @@ class AudioReactor {
     }
 
 }
+
+module.exports.SoundReactor
