@@ -12,7 +12,7 @@ class SoundReactor {
 
     init() {
         this.ctx = new AudioContext();
-        this.audio = document.querySelector('#audio');
+        this.audio = document.querySelector('#sound-reactor-audio');
         this.audioSource = this.ctx.createMediaElementSource(this.audio);
         this.analyser = this.ctx.createAnalyser();
         this.analyser.smoothingTimeConstant = 0.8
@@ -36,4 +36,4 @@ class SoundReactor {
 
 }
 
-module.exports.SoundReactor
+module.exports = SoundReactor;
