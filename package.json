@@ -1,6 +1,6 @@
 {
   "name": "mb-sound-reactor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple class to quickly access sound data via ftt",
   "main": "index.js",
   "scripts": {
