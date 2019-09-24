@@ -1,18 +1,19 @@
 class SoundReactor {
 
-    constructor() {
+    constructor(audioUrl) {
         this.ctx
         this.audio
         this.audioSource
         this.analyser
         this.fdata
+        this.url = audioUrl
 
         this.bind()
     }
 
     init() {
         this.ctx = new AudioContext();
-        this.audio = document.querySelector('#sound-reactor-audio');
+        this.audio = new Audio(this.url);
         this.audioSource = this.ctx.createMediaElementSource(this.audio);
         this.analyser = this.ctx.createAnalyser();
         this.analyser.smoothingTimeConstant = 0.8
